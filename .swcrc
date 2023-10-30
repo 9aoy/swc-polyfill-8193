@@ -1,20 +1,16 @@
 {
-    "jsc": {
-      "externalHelpers": true,
-      "parser": {
-        "syntax": "ecmascript",
-        "jsx": true,
-        "decorators": true
-      },
-    },
-    "env": {
-      "targets": [
-        "> 0.01%",
-        "not dead",
-        "not op_mini all"
-      ],
-      "mode": "usage",
-      "coreJs": "3.33.1"
-    },
-    "isModule": "unknown"
-  }
+  "jsc": {
+    "externalHelpers": true,
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true,
+      "decorators": true
+    }
+  },
+  "env": {
+    "targets": ["> 0.01%", "not dead", "not op_mini all"],
+    "mode": "usage",
+    "coreJs": "3.33.1"
+  },
+  "isModule": "unknown"
+}

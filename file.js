@@ -5,3 +5,5 @@ const data = [
 ];
 
 const result = Object.groupBy(data, ({ type }) => type);
+
+console.log(Object.assign({ c: 3 }, { a: 1, b: 2 }));
